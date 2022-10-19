@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import SearchBar from './SearchBar';
+import SearchBar from '../Props/SearchBar';
 
 const ShoppingList = () => {
 // function ShoppingList() {
@@ -10,6 +10,7 @@ const ShoppingList = () => {
     const [counter, setCounter] = useState({count: 1});
 
     const uniqueId = "123"
+    
 
     const addNewItem = (e) => {
         e.preventDefault();
